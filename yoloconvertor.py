@@ -89,10 +89,17 @@ class YoloConvertor():
 		if not os.path.exists(self.outPath):
 			os.mkdir(self.outPath)
 
+		filesPresent = False
 		for (dirpath, dirnames, filenames) in walk(self.annotationDir):
 			self.annotationFilesList.extend(filenames)
-			print self.annotationFilesList
+			if self.annotationDir:
+				filesPresent = True
+				print self.annotationFilesList
 			break
+		if not filesPresent:
+			print "No Annotated Files Present in the Directory : ", self.annotationDir
+			return
+
 		self._process()
 		return
 
