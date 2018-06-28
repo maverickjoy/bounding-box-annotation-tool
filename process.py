@@ -2,7 +2,7 @@ import glob, os
 
 # ============================== Config ========================================
 
-DATA_PATH       = 'Output/009/'			# Directory where the data will reside, relative to 'darknet.exe'
+DATA_PATH       = 'data/obj/'			# Directory where the data will reside, relative to 'darknet.exe'
 TEST_PERCENTAGE = 30				# Test Image Percentage
 IMAGE_FORMAT    = 'jpg'				# Image Format of your data [jpg / png / jpeg]
 
