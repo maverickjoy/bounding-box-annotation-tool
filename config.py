@@ -9,7 +9,7 @@ PARAMS = dict(
 
 YOLO = dict(
 	imageFormat	      = 'JPG',                  # Specify Image format [JPG / JPEG / PNG ], Default will be taken as JPG
-	sourceDirectory       = '009', 			# Directory from which you want to convert annotations
+	sourceDirectory       = '001', 			# Directory from which you want to convert annotations
 	outputDirectory       = './Output'		# Directory where Yolo annotation output will be saved
 )
 
