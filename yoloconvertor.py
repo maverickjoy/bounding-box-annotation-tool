@@ -39,6 +39,9 @@ class YoloConvertor():
 			annotationFile = open(annotationFilePath, "r")
 			lines = annotationFile.read().split("\n")
 
+			if len(lines) <= 2:
+				continue
+
 			outputFilePath = os.path.join(self.outPath, annotationFileName)
 			print "Output File Path : ", outputFilePath
 
