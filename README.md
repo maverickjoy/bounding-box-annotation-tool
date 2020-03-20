@@ -8,7 +8,7 @@ This tool is originally based upon [BBox-Label-Tool](https://github.com/puzzledq
 * Can annotate for JPG, PNG and JPEG image formats.
 * Can Annotate For Single or Multi Classes.
 * Can Add a new class on runtime.
-* `yolocovertor.py` dedicated for converting bounding boxes to yolo format with classes.
+* `yoloconvertor.py` dedicated for converting bounding boxes to yolo format with classes.
 * Easy configuration handling in `config.py`.
 * Additional `process.py` for creating test.txt and train.txt files set.
 
